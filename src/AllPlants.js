@@ -97,7 +97,7 @@ const AllPlants = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {plants.map((plant) => (
+                    {filteredPlants.map((plant) => (
                         <tr key={plant.id}>
                             <td>{plant['Latin name']}</td>
                             <td>{plant.Family}</td>
